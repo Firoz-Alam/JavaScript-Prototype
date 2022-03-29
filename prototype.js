@@ -28,20 +28,20 @@
 
 // class converted
 
-class Person{
-    constructor(name,age) {
-        this.name = name;
-        this.age = age;
-    }
+// class Person{
+//     constructor(name,age) {
+//         this.name = name;
+//         this.age = age;
+//     }
 
-    eat() {
-        console.log('Person is eating');
-    }
-    sleep() {
-        console.log('Person is sleeping');
-    }
-}
+//     eat() {
+//         console.log('Person is eating');
+//     }
+//     sleep() {
+//         console.log('Person is sleeping');
+//     }
+// }
 
-const sakib = new Person("Sakib",35);
-sakib.eat();
+// const sakib = new Person("Sakib",35);
+// sakib.eat();
 
