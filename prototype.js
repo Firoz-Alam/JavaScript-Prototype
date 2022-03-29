@@ -2,13 +2,13 @@
 
 function Person(name,age){
 
-    let person = Object.create(Person.prototype);
+    // let person = Object.create(Person.prototype);  //every function has prototype property
 
-    person.name = name;
-    person.age = age;
+    this.name = name;
+    this.age = age;
 
   
-return person;
+// return person;
 
 }
 
@@ -21,8 +21,8 @@ Person.prototype = {
     }
 }
 
-const sakib = Person('Sakib',35);
+const sakib =new Person('Sakib',35); // new keyword added and create new object 
 sakib.eat();
-const tamim = Person('Tamim',36);
+const tamim = new Person('Tamim',36);
 
 
