@@ -1,17 +1,20 @@
+const  personMethod = {
+    eat(){
+        console.log('person is eating');
+    },
+    sleep(){
+        console.log('person is sleeping');
+    }
+}
+
 function Person(name,age){
 
-    let person = {};
+    let person = Object.create(personMethod);
 
     person.name = name;
     person.age = age;
 
-    person.eat = function(){
-        console.log('person is eating');
-    }
-
-    person.sleep = function(){
-        console.log('person is sleeping');
-    }
+  
 return person;
 
 }
